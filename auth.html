@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Promedic Client</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+		<!-- Font awesome css -->
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<!-- Project CSS -->
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/responsive.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container dis-table">
+			<div class="auth-section">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="card-group">
+							<div class="card1">
+								<div class="p-20">
+									<label>
+	                                	Change language
+	                                	<select>
+	                                		<option value="en">en</option>
+	                                		<option value="yor">yoruba</option>
+	                                		<option value="igbo">igbo</option>
+	                                		<option value="hausa">hausa</option>
+	                                	</select>
+	                              	</label>
+	                              	<div class="card-block p-20">
+	                              		<img class="logo" height="55" src="assets/img/logo.png" style="" width="185">
+	                              		<p class="text-muted">Sign In to your account</p>
+	                              		<form method="" action="">
+											<div class="form-group">
+												<label class="" for="">Mobile Number</label>
+												<input class="form-control" name="mobile" required="" type="text">
+											</div>
+											<div class="form-group">
+												<label class="" for="">Password</label>
+												<input class="form-control" name="password" placeholder="Password" required="" type="password">
+											</div>
+											<div class="">
+												<div class="align-right">
+													<button class="btn brand-btn" href="#register" type="submit">Login</button>
+												</div>
+											</div>
+										</form>
+	                              	</div>
+								</div>
+							</div>
+							<div class="card2">
+								<div class="card-block text-center p-20 c-white">
+									<div>
+										<h2 class="sign-up-text">Sign Up</h2>
+										<p>Welcome to PROMedic Seamless and Innovative Health Data Technology!</p>
+										<button class="brand-btn" id="register_btn">Register Now!</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-3 dis-hide" id="register">
+						<div class="register">
+							<div class="p-20 bg-white">
+								<img class="logo" height="55" src="assets/img/logo.png" style="" width="185">
+								<p>Create your account</p>
+								<form>
+		                            <div class="form-group">
+		                               <label class="" for="">Mobile Number</label>
+		                               <input class="form-control" name="" required="" type="text">
+		                            </div>
+
+		                            <div class="form-group">
+		                               <label class="" for="">Password</label>
+		                               <input class="form-control" name="password" required="" type="password">
+		                            </div>
+
+		                            <div class="form-group">
+		                                <label class="" for="">Confirm Password</label>
+		                                <input class="form-control" name="confirmPass" required="" type="password">
+		                            </div>
+
+		                            <button class="btn reg-btn" type="submit">Create Account</button>
+		                        </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery -->
+		<script src="assets/js/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="assets/js/bootstrap.js"></script>
+		<script>
+			$(document).ready(function() {
+			        $("#register_btn").click((function(){
+			        return function()
+			        {
+			           $(".col-md-8").hide("fast");
+			           $(".col-md-6").show("fast");
+			        }
+			        })());
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+	position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #e4e5e6;
+    font-size: 0.875rem;
+    font-family: Segoe UI !important;
+}
+html {
+	font-size: 16px;
+	line-height: 1.15;
+}
+.m-b-24 {
+	margin-bottom: 24px;
+}
+.dis-table {
+	display: table;
+}
+.auth-section {
+	display: table-cell;
+    height: 100vh;
+    vertical-align: middle;
+}
+.card1, .card2 {
+	display: table-cell;
+    vertical-align: top;
+}
+.card1 {
+	background-color: white;
+	border: 1px solid #cfd8dc;
+}
+.text-muted {
+	color: #b0bec5 !important
+}
+.brand-btn {
+	color: #fff;
+    background-color: #20a8d8;
+    border-color: #20a8d8;
+    padding: 8px 16px;
+    border-radius: 0;
+	margin-top: 10px;
+	border: none;
+}
+.brand-btn:hover {
+	color: #fff;
+    background-color: #1985ac;
+    border-color: #187fa3;
+}
+.form-control:focus {
+	webkit-box-shadow: none;
+    box-shadow: none;
+    color: #607d8b;
+}
+.form-control {
+	border-radius: 0 !important;
+}
+.card2 {
+	background-color: #20a8d8;
+	width: 44.4%;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+.card-group {
+	/*table*/
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.dis-hide {
+	display: none;
+}
+.sign-up-text {
+	margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+label {
+	font-weight: normal;
+}
+.register {
+	border: 1px solid #cfd8dc;
+	margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.reg-btn {
+	color: #fff;
+    background-color: #4dbd74;
+    border-color: #4dbd74;
+    width: 100%;
+}

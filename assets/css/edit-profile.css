@@ -1,0 +1,51 @@
+nav {
+	position: fixed !important;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 111;
+}
+.p-t-55 {
+	padding-top: 55px;
+}
+.navbar-brand {
+	display: inline-block;
+    width: 155px;
+    height: 55px;
+    padding: 8px 16px;
+    background-color: #fff;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70px auto;
+}
+.navbar-default {
+	background-color: white;
+	border-radius: 0;
+	border-bottom: 1px solid #cfd8dc;
+}
+.card-header {
+	padding: 12px 20px;
+    margin-bottom: 0;
+    background-color: #eceff1;
+    border-bottom: 1px solid #cfd8dc;
+}
+.form-control {
+	width: 100%;
+	border-radius: 0 !important;
+}
+.form-control-label {
+	color: #263238;
+}
+.save-btn {
+	color: #fff;
+    background-color: #20a8d8;
+    border-color: #20a8d8;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+.save-btn:hover {
+	color: #fff;
+    background-color: #1985ac;
+    border-color: #187fa3;
+}
