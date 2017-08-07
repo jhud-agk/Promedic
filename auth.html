@@ -70,35 +70,11 @@
 									<div>
 										<h2 class="sign-up-text">Sign Up</h2>
 										<p>Welcome to PROMedic Seamless and Innovative Health Data Technology!</p>
-										<button class="brand-btn" id="register_btn">Register Now!</button>
+										<a href="register.html">
+											<button class="brand-btn" id="register_btn">Register Now!</button>
+										</a>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 dis-hide" id="register">
-						<div class="register">
-							<div class="p-20 bg-white">
-								<img class="logo" height="55" src="assets/img/logo.png" style="" width="185">
-								<p>Create your account</p>
-								<form>
-		                            <div class="form-group">
-		                               <label class="" for="">Mobile Number</label>
-		                               <input class="form-control" name="" required="" type="text">
-		                            </div>
-
-		                            <div class="form-group">
-		                               <label class="" for="">Password</label>
-		                               <input class="form-control" name="password" required="" type="password">
-		                            </div>
-
-		                            <div class="form-group">
-		                                <label class="" for="">Confirm Password</label>
-		                                <input class="form-control" name="confirmPass" required="" type="password">
-		                            </div>
-
-		                            <button class="btn reg-btn" type="submit">Create Account</button>
-		                        </form>
 							</div>
 						</div>
 					</div>
@@ -109,16 +85,5 @@
 		<script src="assets/js/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="assets/js/bootstrap.js"></script>
-		<script>
-			$(document).ready(function() {
-			        $("#register_btn").click((function(){
-			        return function()
-			        {
-			           $(".col-md-8").hide("fast");
-			           $(".col-md-6").show("fast");
-			        }
-			        })());
-			});
-		</script>
 	</body>
 </html>

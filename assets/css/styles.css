@@ -109,6 +109,8 @@ label {
 	margin-top: 10px;
 	margin-right: 70px;
 }
+
+
 @media(max-width: 420px){
 	.auth-section{
 		margin-top: 40px;
